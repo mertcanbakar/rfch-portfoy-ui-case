@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+i {
+  display: inline;
+  font-size: 12px;
+  position: relative;
+  margin-right: 4px;
+}
+
+.sign-up {
+  width: 70%;
+  min-height: 200px;
+  background-color: #f4d711;
+  padding: 0 15%;
+  margin: 0 auto;
+}
+.sign-up h5 {
+  padding: 35px 0;
+}
+.sign-up h4 {
+  padding-bottom: 20px;
+}
+
+.sign-up h1 {
+  padding-bottom: 20px;
+}
+.sign-up ul li {
+  list-style: none;
+  text-align: left;
+  font-size: 15px;
+}
+.sign-btn {
+  margin: 30px 0;
+  padding: 10px 40px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 3px;
+}
+.info-container {
+  display: flex;
+  width: 70%;
+  min-height: 100px;
+  background-color: #fff;
+  padding: 0 15%;
+  margin: 0 auto;
+}
+.info {
+  min-width: 60%;
+  padding: 20px 0;
+}
+.info p {
+  margin-top: 15px;
+}
+
+.experienced-info {
+  width: 600px;
+  height: 100%;
+  margin-left: 50px;
+  padding: 20px 20px;
+  background-color: #ededed;
+  justify-content: center;
+  text-align: left;
+}
+.experienced-info p {
+  font-size: 12px;
+  margin-top: 3px;
+}
+.experienced-info span {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 11px;
+}
+.experienced-info span h3 {
+  font-size: 20px;
+}
+
+.experienced-info span:nth-child(4) {
+  margin-left: 10px;
+}
+.experienced-info a {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+}
+.xm {
+  display: flex;
+  width: 70%;
+  min-height: 100px;
+  background-color: #000;
+  color: #fff;
+  padding: 0 15%;
+  margin: 0 auto;
+}
+.xm-info {
+  justify-content: center;
+  padding: 50px 0;
+}
+.xm-info p {
+  margin-top: 10px;
+}
+.one-month {
+  width: 230px;
+  min-height: 100%;
+  margin-left: 50px;
+  background-color: #f4d711;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.web-info {
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  padding: 0 15%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.explanation {
+  margin: 60px 0;
+}
+.explanation h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.explanation ul li {
+  list-style-type: "\25A3";
+  margin-left: 12px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.human-image img {
+  width: 220px;
+  max-height: 100%;
+  display: flex;
+  margin-top: 25px;
+  position: absolute;
+  left: 470px;
+  bottom: 120px;
+}
+.sumbit-container {
+  width: 100%;
+  min-height: 400px;
+  background-color: #f4d711;
+}
+.slogan {
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  padding: 0 14%;
+}
+
+.slogan h2 {
+  padding: 10px 10px;
+}
+.slogan p {
+  padding: 15px 10px;
+}
+.diff {
+  padding: 10px;
+  color: #000;
+  height: 100%;
+  background-color: #f4d711;
+}
+.sumbit-forms {
+  display: inline-block;
+  padding: 35px 15%;
+  width: 500px;
+}
+.sumbit-forms h3 {
+  padding: 20px 0;
+}
+.forms {
+  padding: 0 14%;
+}
+.forms input {
+  display: inline-block;
+  margin: 10px 0 10px 15px;
+  padding: 10px;
+  border-radius: 3px;
+}
+.sumbit-btn {
+  width: 195px;
+  padding: 10px;
+  border: 1px solid black;
+  margin-left: 15px;
+  background-color: #ffde01;
+  cursor: pointer;
+  color: #000;
+  border-radius: 3px;
+}
+.forms p{
+margin: 10px;
+padding-bottom: 10px;
+font-size: 12px;
+}
+.finish{
+    width: 100%;
+    height: 40px;
+display: flex;
+padding-top: 20px;
+padding-left: 120px;
+background-color: #000;
+color:#ededed;
+}
+.finish p{
+margin-right: 95px;
+}
+.finish span{
+color: #ffde01;
+}
